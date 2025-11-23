@@ -1,6 +1,10 @@
 # playwright-mcp
 A sample framework that uses the MCP Playwright server with multiple MCP clients, supporting both UI and API testing
 
+UI: [nextjs.org](https://nextjs.org/)
+
+API: [https://fakerestapi.azurewebsites.net/](https://fakerestapi.azurewebsites.net/index.html)
+
 # Prerequisites
 - Node.js (v16 or higher)
 - MCP Playwright server
@@ -68,3 +72,16 @@ npx playwright test tests/footer-comprehensive.spec.ts
 ```bash
 npx playwright test --reporter=html
 ```
+
+### API tests for [https://fakerestapi.azurewebsites.net/](https://fakerestapi.azurewebsites.net/index.html)
+- Run the following prompt to generate API tests for the schema: [https://fakerestapi.azurewebsites.net/swagger/v1/swagger.json](https://fakerestapi.azurewebsites.net/swagger/v1/swagger.json)
+  
+<img width="422" height="228" alt="Screenshot 2025-11-23 at 17 00 23" src="https://github.com/user-attachments/assets/0345cbe6-b395-4854-82d8-9a91ce51cf38" />
+
+Note: The generated test suites will vary based on the chosen LLM, and the same prompt may produce different outputs
+
+### Run generated API tests
+```bash
+npx playwright test tests/api/fakerest.spec.ts
+```
+
