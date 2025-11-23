@@ -13,7 +13,7 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
     - VS Code
 - Create a empty project/folder with name `playwright-mcp`
   
-- Open with any editor and initialise with playwright
+- Open with any editor and initialise with playwright(just run below command on terminal and accept everything)
     - Install dependencies
         - npm init playwright@latest
           
