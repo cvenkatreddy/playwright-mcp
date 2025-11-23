@@ -11,7 +11,9 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
     - Claude Desktop
     - Windsurf
     - VS Code
-- Create a empty folder(for ex: playwright-mcp) --> open with any of the editor --> open a new terminal
+- Create a empty project/folder with name `playwright-mcp`
+  
+- Open with any editor and initialise with playwright
     - Install dependencies
         - npm init playwright@latest
           
@@ -28,7 +30,7 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
   }
 }
 ```
-- Run below prompt with claude sonnet4 llm agent for generating UI tests for nextjs.org footer links
+- Run the following prompt with the Claude Sonnet 4 LLM agent to generate UI tests for the Next.js.org footer links
 ```
 Use the available tools and navigate to nextjs.org website
 analyse the content and create me a suite of tests which will test the footer links of nextjs website
