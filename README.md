@@ -28,7 +28,7 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
   }
 }
 ```
-- Run below prompt with any of the llm agents(claude sonnet4/GPT-5-Codex) for generating UI tests for nextjs.org for footer links
+- Run below prompt with claude sonnet4 llm agent for generating UI tests for nextjs.org for footer links
 ```
 Use the available tools and navigate to nextjs.org website
 analyse the content and create me a suite of tests which will test the footer links of nextjs website
