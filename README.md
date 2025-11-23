@@ -11,7 +11,7 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
     - Claude Desktop
     - Windsurf
     - VS Code
-- Create a empty folder --> open with any of the editor --> open a new terminal
+- Create a empty folder(for ex: playwright-mcp) --> open with any of the editor --> open a new terminal
     - Install dependencies
         - npm init playwright@latest
           
