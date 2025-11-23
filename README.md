@@ -6,18 +6,14 @@ UI: [nextjs.org](https://nextjs.org/)
 API: [https://fakerestapi.azurewebsites.net/](https://fakerestapi.azurewebsites.net/index.html)
 
 # Prerequisites
-- Node.js (v16 or higher)
+- Node v18 or newer
 - MCP Playwright server
 - MCP clients (Claude Desktop, Windsurf, VS Code)
 
-# Setup/Installtion
-- Install any of the MCP clients
-    - Claude Desktop
-    - Windsurf
-    - VS Code
+# Setup/Installtion 
 - Create a empty project/folder with name `playwright-mcp`
   
-- Open with any editor and initialise with playwright(just run below command on terminal and accept everything)
+- Open with any editor(windsurf/VS code) and initialise project with playwright(just run below command on terminal and accept everything)
     - Install dependencies
         - npm init playwright@latest
           
