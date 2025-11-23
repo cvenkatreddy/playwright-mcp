@@ -1,5 +1,5 @@
 # playwright-mcp
-A sample framework that uses the MCP Playwright server with MCP client windsurf/VS Code, supporting both UI and API testing
+A step-by-step guide that uses MCP Playwright server with MCP client windsurf/VS Code, supporting both UI and API testing
 
 UI: [nextjs.org](https://nextjs.org/)
 
