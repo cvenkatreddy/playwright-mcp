@@ -6,15 +6,15 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
 - MCP Playwright server
 - MCP clients (Claude Desktop, Windsurf, VS Code)
 
-# Installation
-- Clone the repository
-- Install dependencies
-    - npm init playwright@latest
-
+# Setup/Installtion
 - Install any of the MCP clients
     - Claude Desktop
     - Windsurf
     - VS Code
+- Create a empty folder --> open with any of the editor --> open a new terminal
+    - Install dependencies
+        - npm init playwright@latest
+          
 - Configure MCP Playwright server
 ```
 {
@@ -28,6 +28,14 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
   }
 }
 ```
+- Run below prompt with any of the llm agents(claude sonnet4/GPT-5-Codex) for generating UI tests for nextjs.org for footer links
+```
+Use the available tools and navigate to nextjs.org website
+analyse the content and create me a suite of tests which will test the footer links of nextjs website
+place the tests in @testsfolder
+```
+what's next, need to run the tests after prompt finishes generating tests
+
 ### Run All Footer Tests
 ```bash
 npx playwright test tests/nextjs-footer.spec.ts
