@@ -33,9 +33,16 @@ A sample framework that uses the MCP Playwright server with multiple MCP clients
 - Run the following prompt with the Claude Sonnet 4 LLM agent to generate UI tests for the Next.js.org footer links
 ```
 Use the available tools and navigate to nextjs.org website
+
 analyse the content and create me a suite of tests which will test the footer links of nextjs website
+
 place the tests in @testsfolder
 ```
+
+<img width="432" height="385" alt="Screenshot 2025-11-23 at 16 25 23" src="https://github.com/user-attachments/assets/4c58a5d3-08b4-4ad2-9f82-495538b6c002" />
+
+Note: The generated test suites will vary based on the chosen LLM, and the same prompt may produce different outputs
+
 what's next, need to run the tests after prompt finishes generating tests
 
 ### Run All Footer Tests
