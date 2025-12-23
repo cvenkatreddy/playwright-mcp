@@ -71,8 +71,9 @@ npx playwright test --reporter=html
 
 ### API tests for [https://fakerestapi.azurewebsites.net/](https://fakerestapi.azurewebsites.net/index.html)
 - Run the following prompt to generate API tests for the schema: [https://fakerestapi.azurewebsites.net/swagger/v1/swagger.json](https://fakerestapi.azurewebsites.net/swagger/v1/swagger.json)
-  
-<img width="422" height="228" alt="Screenshot 2025-11-23 at 17 00 23" src="https://github.com/user-attachments/assets/0345cbe6-b395-4854-82d8-9a91ce51cf38" />
+```
+generate API tests in a folder api under tests with support of playwright-mcp server using schema accessed from https://fakerestapi.azurewebsites.net/swagger/v1/swagger.json, baseUrl: https://fakerestapi.azurewebsites.net/api/v1
+```
 
 Note: The generated test suites will vary based on the chosen LLM, and the same prompt may produce different outputs
 
