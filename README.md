@@ -1,5 +1,5 @@
 # playwright-mcp
-A step-by-step guide that uses MCP Playwright server with MCP client windsurf/VS Code, supporting both UI and API testing
+A step-by-step guide that uses MCP Playwright server with MCP client (Windsurf/VS Code), supporting both UI and API testing
 
 UI: [nextjs.org](https://nextjs.org/)
 
@@ -7,7 +7,7 @@ API: [https://fakerestapi.azurewebsites.net/](https://fakerestapi.azurewebsites.
 
 # Prerequisites
 - Node v18 or newer
-- MCP Playwright server
+- playwright-mcp (https://github.com/microsoft/playwright-mcp)
 - MCP clients (Claude Desktop, Windsurf, VS Code)
 
 # Setup/Installtion 
